@@ -1,0 +1,298 @@
+.navbar {
+    background-color: rgb(0, 0, 0);
+
+}
+
+ul {
+    overflow: auto;
+    padding: 10px 48px;
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin: 9px 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+li a {
+    padding: 3px 3px;
+    color: white;
+}
+
+.search {
+    padding: 8px 56px;
+    float: right;
+}
+
+.navbar input {
+    border-radius: 2px;
+    border: none;
+    padding: 2px 9px;
+}
+
+.submit {
+    float: right;
+    padding: 1.5px 8px;
+    border: none;
+}
+
+.submit:hover {
+    color: rgb(141, 141, 255);
+    background-color: rgb(93, 176, 255);
+}
+
+.container {
+    background-color: aquamarine;
+    border: 2px solid darkred;
+    padding: 34px;
+    margin: 34px auto;
+    width: 765px;
+    background-position: center center;
+}
+
+a {
+    text-decoration: solid;
+}
+
+a:hover {
+
+    color: rgb(243, 150, 10);
+}
+
+a.visited {
+    color: aquamarine;
+}
+
+a.active {
+    color: aqua;
+}
+
+button:hover {
+    color: rgb(49, 1, 1);
+    background-color: rgb(245, 209, 154);
+}
+
+.btn {
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.bar {
+    /* display: inline-block; */
+    cursor: pointer;
+    float: left;
+    width: 5px;
+    padding: 10px 3px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 6px;
+    transition: 0.4s;
+
+}
+
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+#introsection {
+    height: 1080px;
+    background-image: url("bg.jpg");
+    opacity: 80%;
+}
+
+#introsection #heading {
+    color: rgb(255, 170, 170);
+    text-align: center;
+    font-size: 47px;
+}
+
+#introsection #heading2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 47px;
+}
+
+
+#middlesection {
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 1867px;
+    height: 265px;
+    padding: 21px 2px;
+    margin: 457px 6px;
+}
+
+#introsection #middlesection .box {
+    border-radius: 62px;
+    width: 532px;
+    height: 100px;
+    padding: 64px 23px;
+    margin: 20px 20px;
+    border: 2px solid white;
+    display: flex;
+    float: left;
+    align-content: space-between;
+}
+
+.box {
+    display: flex;
+    background-color: lightcoral;
+    color: rgb(236, 162, 255);
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.box:hover {
+    width: 700px;
+    height: 500px;
+    border-radius: 75px;
+    background-color: brown;
+    color: white;
+    font-size: 23px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#introsection #middlesection #box1 {
+    /* padding: 10px 10px;
+    margin: 10px 10px; */
+    background-image: url("logo1.jpg");
+    background-position: center;
+    background-size: 180px;
+    background-repeat: no-repeat;
+
+}
+
+#introsection #middlesection #box2 {
+    /* padding: 10px 10px;
+    margin: 10px 10px; */
+    background-image: url("logo3.png");
+    background-position: center ;
+    background-size: 180px;
+    background-repeat: no-repeat;
+
+}
+
+#introsection #middlesection #box3 {
+     /* padding: 10px 10px; 
+    margin: 10px 10px;  */
+    background-image: url("logo4.png");
+    background-position:center;
+    background-size: 180px;
+    background-repeat: no-repeat;
+
+}
+
+
+.footer {
+    height:72px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    
+}
+.text{
+    justify-content: center;
+}
+/* contact form */
+
+
+input[type=submit] {
+    background-color: #ff6666;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #fa6f6f;
+  }
+  input[type=name]{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    justify-content:center;
+    text-align:center;
+    box-sizing: border-box;
+  }
+  input[type=phone]{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    justify-content: center;
+    text-align:center;
+    box-sizing: border-box;
+
+  }
+  input[type=email]{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    justify-content: center;
+    text-align:center;
+    box-sizing: border-box;
+
+  }
+  .myForm{
+    margin: 90px auto;
+    padding: 44px 54px;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 300px;
+}
+
+.design{
+    text-align: center;
+    font-weight: bold;
+}
+.subbtn{
+   padding: 2px 53px;
+}
+
+.subbtn1{
+    padding: 5px 110px;
+
+}
+
+.footer1 {
+    height:320px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    
+}
